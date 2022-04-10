@@ -1,0 +1,390 @@
+.header-home {
+    background-image: url('https://static.crunchyroll.com/cr-spa-registration/assets/img/landing/hero_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 100%;
+    position: relative;
+}
+
+.navbar-nav li a {
+    padding: 8px 20px !important;
+    margin: 10px 20px;
+}
+
+.nav-explorar a {
+    border: 2px solid #fff;
+}
+
+.contenedor-all {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    padding: 30px 10px;
+}
+
+.info-home {
+    text-align: center;
+}
+
+.info-home h2 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.btn-home {
+    background-color: #f47521 !important;
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+    color: #141519 !important;
+    border-radius: 0 !important;
+}
+
+.home-info-bottom {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 30px 10px;
+}
+
+.home-info-bottom p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.icon-home {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+/*SECTION DISPOSITIVOS*/
+
+.dispositivos-row {
+    margin-top: 80px;
+}
+
+.info-dispositivos {
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.info-dispositivos h2 {
+    font-size: 35px;
+    color: #141519;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 bold;
+    padding: 5px 0;
+}
+
+.info-dispositivos p {
+    color: #59595b;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dispositivo-img {
+    background-image: url('https://static.crunchyroll.com/cr-spa-registration/assets/img/landing/devices.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 100%;
+    position: relative;
+}
+
+
+/*episodios*/
+
+.section-episodios {
+    margin: 60px 0;
+}
+
+.row-episodios h2 {
+    font-size: 35px;
+    color: #141519;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+/*PREIUM*/
+
+.col-fan {
+    text-align: center;
+}
+
+.icon-premium {
+    font-size: 40px;
+    padding: 15px 13px;
+    margin: 10px 0;
+    border-radius: 50%;
+    background-color: #fab818;
+    color: #ffffff;
+}
+
+.col-fan h3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.p-fan1 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.p-fan2 {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn-premium {
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+    color: #f47521 !important;
+    border: 2px solid #f47521 !important;
+    border-radius: 0 !important;
+}
+
+.btn-no-premium {
+    font-size: 13px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+    color: #141519 !important;
+    border-radius: 0 !important;
+}
+
+.col-fan {
+    padding: 0 10px;
+    margin-top: 10px !important;
+}
+
+.contenedor-fan {
+    border: 2px solid lightgray;
+}
+
+.col-fan ul {
+    list-style: none;
+    text-align: start;
+}
+
+.col-fan ul li {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.col-fan ul li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('images/check-solid.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.col-megafan {
+    border: 2px solid #2abdbb;
+}
+
+.col-megafan h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #2abdbb;
+    padding: 8px 0;
+}
+
+.col-megafan h3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.p-magafan-1 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.p-magafan-2 {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.col-megafan {
+    text-align: center;
+    margin-top: 10px !important;
+}
+
+.col-megafan ul {
+    list-style: none;
+    text-align: start;
+}
+
+.col-megafan ul li {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.col-megafan ul li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('images/check-solid.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.contenedor-megafan12 {
+    border: 2px solid lightgray;
+}
+
+.col-megafan12 {
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 10px !important;
+}
+
+.contenedor-megafan12 h3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.p-magafan12-1 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.p-magafan12-2 {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.col-megafan12 ul {
+    list-style: none;
+    text-align: start;
+}
+
+.col-megafan12 ul li {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.col-megafan12 ul li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('images/check-solid.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.premium-text-bottom p {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+    margin: 0;
+    color: #59595b;
+}
+
+.p-cuenta-gratuita {
+    text-align: center;
+    font-size: 17px !important;
+    color: #141519 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.p-cuenta-gratuita span a {
+    color: #f47521;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+
+/*FOOTER*/
+
+footer {
+    margin: 20px 0;
+}
+
+.footer-a {
+    margin: auto;
+    text-align: center;
+}
+
+.footer-a a {
+    text-decoration: none;
+    color: #f47521;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 15px 10px;
+}
+
+.form-select {
+    border: 2px solid #141519 !important;
+}
+
+.row-idioma {
+    margin: 20px 0 !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-idioma p {
+    color: #141519;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.img-episodio {
+    width: 100%;
+}
